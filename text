@@ -1,0 +1,49 @@
+-- this is an example
+
+group: Manufacturing enterprises
+
+
+Company = {
+id:number, name:string, rating:number, city:string
+180, Electronic, 230, Gomel
+230, Technomir, 300, Moscow
+150, Appliances, 140, Gomel
+190, Master, 300, Minsk
+270, Stroymarket, 240, Moscow
+}
+
+Product = {
+	p_id:number, p_name:string    , p_cost:number, p_city:string
+	10         , 'A mircowave'    , 400          , 'Gomel'      
+	20         , 'Dishwasher'     , 1000         , 'Moscow'     
+	30         , 'Dryer'          , 650          , 'Gomel'      
+	40         , 'Fridge'         , 800          , 'Mogilev'    
+	50         , 'Washer'         , 700          , 'Gomel'      
+	60         , 'Electric strove', 720          , 'Moscow'     
+}
+
+Worker = {
+	w_id:number, w_name:string, w_city:string, w_bitrhday:string, id:number
+	55         , 'Ivanov'     , 'Gomel'      , '15.03.1998'     , 180      
+	10         , 'Petrov'     , 'Moscow'     , '17.02.1995'     , 230      
+	100        , 'Sidorov'    , 'Gomel'      , '03.12.1993'     , 150      
+	190        , 'Ivanov'     , 'Minsk'      , '18.04.1991'     , 190      
+	130        , 'Antonov'    , 'Mogilev'    , '14.03.1994'     , 190      
+	90         , 'Sergeev'    , 'Moscow'     , '01.12.1976'     , 180      
+}
+
+Production = {
+	id:number, p_id:number, p_year:number, p_value:number
+	150      , 30         , 2016         , 150           
+	180      , 10         , 2016         , 100           
+	180      , 60         , 2018         , 90            
+	190      , 50         , 2015         , 50            
+	270      , 50         , 2016         , 120           
+	270      , 20         , 2016         , 50            
+	180      , 20         , 2017         , 50            
+	270      , 40         , 2017         , 200           
+	150      , 10         , 2016         , 100           
+	270      , 30         , 2017         , 130           
+	270      , 10         , 2017         , 70            
+	270      , 60         , 2018         , 210           
+}
